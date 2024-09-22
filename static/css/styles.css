@@ -58,6 +58,7 @@
     background: url('../images/background-main-page.jpg') no-repeat center center/cover; /* Background image */
     position: relative;
 	margin-top: 50px;
+	padding: 10px 100px;
 }
 
 .hero h1 {
@@ -72,7 +73,6 @@
 	font-size: x-large;
     font-weight: light;
     color: var(--raisin_black);
-
 }
 
 .main {
@@ -93,3 +93,23 @@ button.front-page {
 	font-size: 16px;
 	margin-bottom: 120px;
 }
+
+.section {
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.section h1 {
+	font-size: 3rem;
+}
+
+.section h3 {
+	font-size: x-large;
+}
+
