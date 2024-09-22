@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- html tag is the root of the project,  lang attribute is the language, is used to assiste search engines-->
+<html lang="en-UK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joao Barbot</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">jsobreir</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" >Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-12">
+                    <h1>Hi. I'm João.</h1>
+                </div>
+                <div class="col-8">
+                    <h5 title="This is text">I’m software developer in the making, a physics graduate, an aspiring entrepreneur, but, most importantly, a life student.</h2>
+                    <button onclick="window.location.href='https://euroc.pt'" class="front-page">My Resume</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+    </main>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>
+
+    <!-- <div id="carousel" class="carousel slide" data-bs-ride="carousel" class="c-item">
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                The alt attribute of an img is the alternative text displayed when image is not found
+                <img src="{{ url_for('static', filename='images/linkedin.jpeg') }}" class="c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="{{ url_for('static', filename='images/1.jpg') }}" class="c-img" alt="...">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="{{ url_for('static', filename='images/2.jpg') }}" class="c-img" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
